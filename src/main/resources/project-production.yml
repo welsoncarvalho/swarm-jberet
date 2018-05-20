@@ -1,0 +1,5 @@
+project:
+  stage: production
+swarm:
+  port:
+    offset: 50

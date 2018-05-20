@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="job_text" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+	<step id="step_read_txt">
+		<chunk item-count="10">
+			<reader ref="txtFileReader" />
+			<processor ref="txtFileProcessor" />
+			<writer ref="txtFileWriter" />
+		</chunk>
+	</step>
+</job>
